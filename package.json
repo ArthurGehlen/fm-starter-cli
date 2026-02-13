@@ -6,8 +6,11 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "fm-starter-cli": "./fm-starter-cli.js"
+    "fm-starter-cli": "fm-starter-cli.js"
   },
+  "files": [
+    "fm-starter-cli.js"
+  ],
   "scripts": {},
   "dependencies": {
     "execa": "^9.6.1",
