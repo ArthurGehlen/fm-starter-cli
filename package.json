@@ -1,0 +1,19 @@
+{
+  "name": "fm-starter-cli",
+  "version": "1.0.0",
+  "description": "CLI que automatiza a criação de um projeto React com Vite a partir de um desafio do Frontend Mentor, copiando e organizando automaticamente os arquivos necessários dentro da nova estrutura.",
+  "author": "Arthur Gehlen",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "fm-starter-cli": "./fm-starter-cli.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "execa": "^9.6.1",
+    "fs-extra": "^11.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
